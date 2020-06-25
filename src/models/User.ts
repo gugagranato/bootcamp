@@ -5,7 +5,6 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
 } from 'typeorm';
-import CreateAppointmentService from '../services/CreateAppointmentService';
 
 @Entity('users')
 class User {

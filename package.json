@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "date-fns": "^2.0.0-beta.5",
@@ -30,6 +31,7 @@
     "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "2.21.2",
     "eslint-plugin-prettier": "^3.1.4",
+    "jsonwebtoken": "^8.5.1",
     "prettier": "^2.0.5",
     "ts-node-dev": "^1.0.0-pre.48",
     "typescript": "^3.9.5"
