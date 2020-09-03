@@ -1,5 +1,3 @@
-import Appointment from '../models/Appointment';
-
 class AppError {
   public readonly message: string;
 

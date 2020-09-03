@@ -1,9 +1,10 @@
 import { getRepository } from 'typeorm';
 import { compare } from 'bcryptjs';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { sign } from 'jsonwebtoken';
-import User from '../models/User';
-import authConfig from '../config/auth';
-import AppError from '../errors/AppError';
+import AppError from '@shared/errors/AppError';
+import authConfig from '@config/auth';
+import User from '../infra/typeorm/entities/User';
 
 interface RequestDTO {
   email: string;
